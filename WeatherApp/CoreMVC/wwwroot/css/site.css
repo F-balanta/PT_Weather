@@ -1,0 +1,134 @@
+﻿* {
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #0c192c;
+    width: 100%;
+    height: 100%;
+}
+/*Navbar*/
+nav {
+    padding: 0;
+    margin-bottom: 5%;
+}
+
+    nav .container {
+        padding: 10px;
+    }
+
+.sesion {
+    justify-content: normal;
+    font-size: 18px;
+    padding: 5px;
+}
+
+footer {
+    margin: 0;
+    padding-top: 0;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: 3;
+}
+
+.link-sesion {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+    .link-sesion:hover {
+        color: yellow;
+    }
+
+
+.wheather-text {
+    padding: 50px 0 20px 0;
+    text-align: center;
+}
+
+/*Cards Content*/
+.contenido-principal {
+    padding-bottom: 2.5rem;
+}
+.containercards {
+    margin-bottom: 50px;
+}
+
+.text-weather {
+    margin-bottom: 2em;
+}
+.text-new-weather {
+    font-size: 25px;
+    margin: 0px 17px 0 0;
+}
+.text-and-button a {
+    font-size: 25px;
+}
+.text-and-button {
+    display: flex;
+    justify-content: center;
+
+}
+
+.card-header {
+    padding: 5%;
+}
+
+.card-title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.grados-centigrados {
+    font-size: 30px;
+    font-weight: 400;
+}
+
+
+.city-state {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.card-body {
+    padding: 15px 15px 5px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.min-max {
+    display: flex;
+}
+
+.min, .max {
+    padding-left: 15px;
+    padding-top: 5px;
+}
+
+
+footer .text-copyright {
+    font-size: 25px;
+    margin-left: 0;
+    margin-right: 20px;
+}
+
+.contenedor-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-floating {
+    padding: 45px;
+}
+
+.text-center a {
+    text-decoration: none;
+}

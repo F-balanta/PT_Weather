@@ -1,0 +1,12 @@
+C:\Users\davo-\OneDrive\Escritorio\PruebaTecnicaClima\Wheather\WeatherApp\Weather.DAL\bin\Debug\net5.0\Weather.DAL.deps.json
+C:\Users\davo-\OneDrive\Escritorio\PruebaTecnicaClima\Wheather\WeatherApp\Weather.DAL\bin\Debug\net5.0\Weather.DAL.dll
+C:\Users\davo-\OneDrive\Escritorio\PruebaTecnicaClima\Wheather\WeatherApp\Weather.DAL\bin\Debug\net5.0\Weather.DAL.pdb
+C:\Users\davo-\OneDrive\Escritorio\PruebaTecnicaClima\Wheather\WeatherApp\Weather.DAL\obj\Debug\net5.0\Weather.DAL.csproj.AssemblyReference.cache
+C:\Users\davo-\OneDrive\Escritorio\PruebaTecnicaClima\Wheather\WeatherApp\Weather.DAL\obj\Debug\net5.0\Weather.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\davo-\OneDrive\Escritorio\PruebaTecnicaClima\Wheather\WeatherApp\Weather.DAL\obj\Debug\net5.0\Weather.DAL.AssemblyInfoInputs.cache
+C:\Users\davo-\OneDrive\Escritorio\PruebaTecnicaClima\Wheather\WeatherApp\Weather.DAL\obj\Debug\net5.0\Weather.DAL.AssemblyInfo.cs
+C:\Users\davo-\OneDrive\Escritorio\PruebaTecnicaClima\Wheather\WeatherApp\Weather.DAL\obj\Debug\net5.0\Weather.DAL.csproj.CoreCompileInputs.cache
+C:\Users\davo-\OneDrive\Escritorio\PruebaTecnicaClima\Wheather\WeatherApp\Weather.DAL\obj\Debug\net5.0\Weather.DAL.dll
+C:\Users\davo-\OneDrive\Escritorio\PruebaTecnicaClima\Wheather\WeatherApp\Weather.DAL\obj\Debug\net5.0\refint\Weather.DAL.dll
+C:\Users\davo-\OneDrive\Escritorio\PruebaTecnicaClima\Wheather\WeatherApp\Weather.DAL\obj\Debug\net5.0\Weather.DAL.pdb
+C:\Users\davo-\OneDrive\Escritorio\PruebaTecnicaClima\Wheather\WeatherApp\Weather.DAL\obj\Debug\net5.0\ref\Weather.DAL.dll

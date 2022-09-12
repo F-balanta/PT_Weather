@@ -1,0 +1,49 @@
+﻿@model CoreMVC.Models.Weather
+
+
+
+
+
+<div class="wheather">
+    <div class="container">
+        <h1 class="text-center pt-3">Editar un clima</h1>
+
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <input asp-for="Id" class="form-control" type="hidden" />
+            </div>
+            <div class="form-group was-validated">
+                <label asp-for="City" class="form-label" for="ciudad">Ciudad</label>
+                <input asp-for="City" class="form-control" maxlength="21" type="text" id="ciudad" required>
+                <span asp-validation-for="City" class="text-danger"></span>
+            </div>
+            <div class="form-group was-validated">
+                <label asp-for="CityImageUrl" class="form-label" for="url">URL Imagen Ciudad </label>
+                <input asp-for="CityImageUrl" class="form-control" type="text" id="url" required>
+                <span asp-validation-for="CityImageUrl" class="text-danger"></span>
+            </div>
+            <div class="form-group was-validated">
+                <label asp-for="Temperature" class="form-label" for="temperatura">Temperatura</label>
+                <input asp-for="Temperature" class="form-control" maxlength="2" type="number" id="temperatura" required placeholder="35°C">
+                <span asp-validation-for="Temperature" class="text-danger"></span>
+            </div>
+            <div class="form-group was-validated">
+                <label asp-for="TempMin" class="form-label" for="tempMin">Temperatura Minima</label>
+                <input asp-for="TempMin" class="form-control" maxlength="2" type="number" min="0" max="255" id="tempMin" required>
+
+                <span asp-validation-for="TempMin" class="text-danger"></span>
+            </div>
+            <div class="form-group was-validated">
+                <label asp-for="TempMax" class="form-label" for="tempMax">Temperatura Maxima</label>
+                <input asp-for="TempMax" class="form-control" maxlength="2" type="number" min="0" max="255" id="tempMax" required>
+                <span asp-validation-for="TempMax" class="text-danger"></span>
+            </div>
+            <button class="btn btn-success" type="submit" value="Create">Guardar</button>
+            <a asp-action="Index" asp-controller="Weather" class="btn btn-warning">Regresar</a>
+
+        </form>
+    </div>
+
+
+</div>

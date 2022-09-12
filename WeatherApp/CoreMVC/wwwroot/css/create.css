@@ -1,0 +1,45 @@
+*{
+  color: white;
+}
+
+body{
+  background: #0c192c;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+}
+
+.wheather {
+  width: 360px;
+  height: min-content;
+  padding: 20px;
+  border-radius: 12px;
+  background: #ffffff;
+}
+
+.wheather h1 {
+  font-size: 36px;
+  margin-bottom: 25px;
+}
+
+.wheather form {
+  font-size: 20px;
+}
+
+.wheather form .form-group {
+  margin-bottom: 12px;
+}
+
+.wheather form input[type="submit"] {
+  font-size: 20px;
+  margin-top: 15px;
+}

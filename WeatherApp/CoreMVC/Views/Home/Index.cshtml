@@ -1,0 +1,38 @@
+﻿@model CoreMVC.Models.UserInfo
+@{
+    ViewData["Title"] = "Home Page";
+    Layout = null;
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="~/css/login.css">
+}
+
+<h1>@ViewBag.Message</h1>
+<hr />
+
+
+<div class="login bg-dark">
+    <h1 class="text-center">Login</h1>
+
+    <form asp-action="LoginUser" asp-controller="Home" class="needs-validation">
+        <div class="form-group was-validated">
+            <label asp-form="Email" class="form-label">Email: </label>
+            <input asp-for="Email" class="form-control" type="email" id="email" required>
+            <span asp-validation-for="Email" class="text-danger"></span>
+            <div class="invalid-feedback">
+                Ingresa tu correo
+            </div>
+        </div>
+        <div class="form-group was-validated">
+            <label asp-form="Password" class="form-label" for="password">Password</label>
+            <input asp-for="Password" class="form-control" type="password" id="password" required>
+            <span asp-validation-for="Password" class="text-danger"></span>
+            <div class="invalid-feedback">
+                Ingresa tu contraseña
+            </div>
+        </div>
+        <input class="btn btn-success w-100" type="submit" value="Iniciar sesión">
+        <label>@Html.Raw(@ViewBag.Message)</label>
+    </form>
+</div>

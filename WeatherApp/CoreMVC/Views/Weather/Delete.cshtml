@@ -1,0 +1,130 @@
+﻿@model CoreMVC.Models.Weather
+@using System.Net
+@using System.Text.RegularExpressions
+@{
+    <link rel="stylesheet" href="~/css/delete.css"/>
+
+    Dictionary<string, string> clima = new Dictionary<string, string>()
+    {
+        { "soleado", "../icons/cloudy-day-3.svg" },
+        { "caluroso", "../icons/day.svg" },
+        { "lluvioso", "../icons/rainy-7.svg"},
+        { "nublado", "../icons/cloudy.svg"},
+        { "nevado", "../icons/snowy-6.svg"}
+    };
+    string img = "", condicion = "";
+    string regular = @"^(ht|f|sf)tp(s?)\:\/\/[0-9a-zA-Z]([-.\w]*[0-9a-zA-Z])*(:(0-9)*)*(\/?)([a-zA-Z0-9\-\.\?\,\'\/\\\+&amp;%\$#_]*)?$";
+    string regular123 = @"^(www.)[0-9a-zA-Z]([-.\w]*[0-9a-zA-Z])*(:(0-9)*)*(\/?)([a-zA-Z0-9\-\.\?\,\'\/\\\+&amp;%\$#_]*)?$";
+
+    bool ValidImgFormat(string img)
+    {
+        if (Regex.IsMatch(img, regular))
+            return true;
+        else if
+            (Regex.IsMatch(img, regular123)) return true;
+        else
+            return false;
+    }
+
+    bool DoesImageExistRemotely(string uriToImage)
+    {
+        HttpWebRequest request = (HttpWebRequest)WebRequest.Create(uriToImage);
+
+        request.Method = "HEAD";
+
+        try
+        {
+            using (HttpWebResponse response = (HttpWebResponse)request.GetResponse())
+            {
+
+                if (response.StatusCode == HttpStatusCode.OK)
+                    return true;
+                else
+                    return false;
+            }
+        }
+        catch (WebException)
+        { return false; }
+        catch
+        {
+            return false;
+        }
+    }
+}
+
+<div class="container text-center">
+    <h3 class="text-delete">¿Seguro que deseas eliminar este clima?</h3>
+    <div class="contaercard col">
+        @{
+            var imgUrl = Model.CityImageUrl;
+            var imgIsValid = ValidImgFormat(imgUrl);
+            var imgExists = imgIsValid && DoesImageExistRemotely(Model.CityImageUrl);
+
+
+            var fondo = "";
+            fondo = imgExists ? Model.CityImageUrl : "";
+
+            @if (Model.Temperature is > 24 and < 31)
+            {
+                img = clima["soleado"];
+                condicion = "Soleado";
+                if (string.IsNullOrEmpty(fondo))
+                    fondo = "https://static9.depositphotos.com/1100968/1233/i/950/depositphotos_12331218-stock-photo-central-park-at-sunny-day.jpg";
+            }
+            @if (Model.Temperature is > 31)
+            {
+                img = clima["caluroso"];
+                condicion = "Caluroso";
+                if (string.IsNullOrEmpty(fondo))
+                    fondo = "https://amqueretaro.com/wp-content/uploads/2022/06/Estas-son-las-ciudades-ma%CC%81s-calurosas-del-mundo-1200x867.jpg";
+            }
+            @if (Model.Temperature <= 10)
+            {
+                img = clima["lluvioso"];
+                condicion = "Lluvioso";
+                if (string.IsNullOrEmpty(fondo))
+                    fondo = "https://www.enterat.com/_images/servicios/ciudadeslluviosas.jpg";
+            }
+            @if (Model.Temperature is > 10 and < 24)
+            {
+                img = clima["nublado"];
+                condicion = "Nublado";
+                if (string.IsNullOrEmpty(fondo))
+                    fondo = "https://thumbs.dreamstime.com/b/ciudad-nublada-de-pittsburgh-165177658.jpg";
+            }
+            @if (Model.Temperature is < 10)
+            {
+                img = clima["nevado"];
+                condicion = "Nevando";
+                if (string.IsNullOrEmpty(fondo))
+                    fondo = "https://content.skyscnr.com/m/0c3de660064b7c21/original/GettyImages-527396541.jpg?resize=1800px:1800px&quality=100";
+            }
+        }
+        <div class="card bg-dark">
+            <div class="card-header">
+                <div class="card-title">
+                    <h2 class="title-city">@Model.City</h2>
+                </div>
+
+                <div class="city-state">
+                    <p class="grados-centigrados">@Model.Temperature°C</p>
+                    <h5 class="">@condicion</h5>
+                    <img class="imagen_ciudad" src=@fondo />
+                </div>
+            </div>
+
+            <img src="" class="card-img-top" />
+            <div class="card-body ">
+                <div class="min-max">
+                    <p class="min">Min: @Model.TempMin°C</p>
+                    <p class="max">Max: @Model.TempMax°C</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <form asp-action="Delete">
+        <input type="submit" value="Delete" class="btn btn-danger" />
+        <a asp-action="Index" asp-controller="Weather" class="btn btn-warning">Regresar</a>
+    </form>
+</div>
+

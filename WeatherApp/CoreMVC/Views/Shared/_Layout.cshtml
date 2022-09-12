@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Core</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="~/css/site.css"/>
+</head>
+<body style="background: #0c192c;">
+
+<header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+      <div class="container">
+        <a class="navbar-brand" href="">Wheather API</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav me-auto mb-1 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" asp-area="" asp-controller="Weather" asp-action="Index">Home</a>
+            </li>
+            <li class="nav-item">
+            </li>
+          </ul>
+          <div class="sesion">
+            <a class="link-sesion" asp-action="Logoff" asp-controller="Home">Log Out</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+</header>
+<div class="container">
+    <main role="main" class="pb-3">
+        @RenderBody()
+    </main>
+</div>
+
+<footer class=" bg-dark">
+  <div class="contenedor-footer container p-3">
+    <p class="text-copyright">© 2022 Copyright:   jf.balanta@hotmail.com</p>
+    <!---Twitter-->
+    <a class="button-twitter btn btn-outline-light btn-floating m-1" target="_blank" href="https://twitter.com/JFRBalanta" role="button">
+      <i class="fab fa-twitter"></i></a>
+    <!---Linkedin-->
+    <a class="button-linkedin btn btn-outline-light btn-floating m-1" target="_blank" href="https://www.linkedin.com/in/f-balanta/" role="button">
+      <i class="fa-brands fa-linkedin"></i></a>
+    <!---GitHub-->
+  <a class="button-github btn btn-outline-light btn-floating m-1" target="_blank" href="https://github.com/F-balanta" role="button">
+      <i class=" fa-brands fa-github"></i></a>
+  </div>
+</footer>
+<!-- CSS only With Bootstrap-->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/652ed840b7.js" crossorigin="anonymous"></script>
+<script src="~/js/site.js" asp-append-version="true"></script>
+@await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

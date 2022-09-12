@@ -1,0 +1,12 @@
+C:\Users\davo-\OneDrive\Escritorio\PruebaTecnicaClima\Wheather\WeatherApp\Weather.BLL\bin\Debug\net5.0\Weather.BLL.deps.json
+C:\Users\davo-\OneDrive\Escritorio\PruebaTecnicaClima\Wheather\WeatherApp\Weather.BLL\bin\Debug\net5.0\Weather.BLL.dll
+C:\Users\davo-\OneDrive\Escritorio\PruebaTecnicaClima\Wheather\WeatherApp\Weather.BLL\bin\Debug\net5.0\Weather.BLL.pdb
+C:\Users\davo-\OneDrive\Escritorio\PruebaTecnicaClima\Wheather\WeatherApp\Weather.BLL\obj\Debug\net5.0\Weather.BLL.csproj.AssemblyReference.cache
+C:\Users\davo-\OneDrive\Escritorio\PruebaTecnicaClima\Wheather\WeatherApp\Weather.BLL\obj\Debug\net5.0\Weather.BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\davo-\OneDrive\Escritorio\PruebaTecnicaClima\Wheather\WeatherApp\Weather.BLL\obj\Debug\net5.0\Weather.BLL.AssemblyInfoInputs.cache
+C:\Users\davo-\OneDrive\Escritorio\PruebaTecnicaClima\Wheather\WeatherApp\Weather.BLL\obj\Debug\net5.0\Weather.BLL.AssemblyInfo.cs
+C:\Users\davo-\OneDrive\Escritorio\PruebaTecnicaClima\Wheather\WeatherApp\Weather.BLL\obj\Debug\net5.0\Weather.BLL.csproj.CoreCompileInputs.cache
+C:\Users\davo-\OneDrive\Escritorio\PruebaTecnicaClima\Wheather\WeatherApp\Weather.BLL\obj\Debug\net5.0\Weather.BLL.dll
+C:\Users\davo-\OneDrive\Escritorio\PruebaTecnicaClima\Wheather\WeatherApp\Weather.BLL\obj\Debug\net5.0\refint\Weather.BLL.dll
+C:\Users\davo-\OneDrive\Escritorio\PruebaTecnicaClima\Wheather\WeatherApp\Weather.BLL\obj\Debug\net5.0\Weather.BLL.pdb
+C:\Users\davo-\OneDrive\Escritorio\PruebaTecnicaClima\Wheather\WeatherApp\Weather.BLL\obj\Debug\net5.0\ref\Weather.BLL.dll

@@ -1,0 +1,22 @@
+﻿@model UserInfo
+@{
+    ViewData["Title"] = "Home Page";
+
+}
+
+
+<div class="row">
+    <div class="col-lg-4 col-md col-sm-4">
+        <div>
+            @using (Html.BeginForm("LoginUser", "Home", FormMethod.Post, new { role = "form" }))
+            {
+                <div>
+                    @Html.TextBoxFor(m => m.Email, new {@class = "form-control txtbox"})
+                </div>
+                <div style="padding-top: 20px;">
+                    @Html.PasswordFor(m => m.Password, new {@class = "form-control txtbox"})
+                </div>
+            }
+        </div>
+    </div>
+</div>
