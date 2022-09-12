@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cSPXfyKuUt0fxVQqvdlYVHrluVqMGO+M9pNq0m2OxHxc+RZAvRMrhdNkppfqfc7gIkDwiQE0B+xLPEqZd0X9SQ==",
+  "dgSpecHash": "fOE2dMBFKij+9R9rHnlPEAwDHJlcmWhHeUYsqaVjwrfS//2A/SUzZ+irsA6x9nbA3dNtB6FSJoYNZeR0E0uJ1g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\davo-\\OneDrive\\Escritorio\\PruebaTecnicaClima\\Wheather\\WeatherApp\\Domain\\Domain.csproj",
+  "projectFilePath": "D:\\Informacion\\Documentos\\PTecnica\\PT_Weather\\WeatherApp\\Domain\\Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -1,23 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\davo-\\OneDrive\\Escritorio\\PruebaTecnicaClima\\Wheather\\WeatherApp\\API\\API.csproj": {}
+    "D:\\Informacion\\Documentos\\PTecnica\\PT_Weather\\WeatherApp\\API\\API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\davo-\\OneDrive\\Escritorio\\PruebaTecnicaClima\\Wheather\\WeatherApp\\API\\API.csproj": {
+    "D:\\Informacion\\Documentos\\PTecnica\\PT_Weather\\WeatherApp\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\davo-\\OneDrive\\Escritorio\\PruebaTecnicaClima\\Wheather\\WeatherApp\\API\\API.csproj",
+        "projectUniqueName": "D:\\Informacion\\Documentos\\PTecnica\\PT_Weather\\WeatherApp\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\Users\\davo-\\OneDrive\\Escritorio\\PruebaTecnicaClima\\Wheather\\WeatherApp\\API\\API.csproj",
-        "packagesPath": "C:\\Users\\davo-\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\davo-\\OneDrive\\Escritorio\\PruebaTecnicaClima\\Wheather\\WeatherApp\\API\\obj\\",
+        "projectPath": "D:\\Informacion\\Documentos\\PTecnica\\PT_Weather\\WeatherApp\\API\\API.csproj",
+        "packagesPath": "C:\\Users\\jfbal\\.nuget\\packages\\",
+        "outputPath": "D:\\Informacion\\Documentos\\PTecnica\\PT_Weather\\WeatherApp\\API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\davo-\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jfbal\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -32,11 +33,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\davo-\\OneDrive\\Escritorio\\PruebaTecnicaClima\\Wheather\\WeatherApp\\Application\\Application.csproj": {
-                "projectPath": "C:\\Users\\davo-\\OneDrive\\Escritorio\\PruebaTecnicaClima\\Wheather\\WeatherApp\\Application\\Application.csproj"
+              "D:\\Informacion\\Documentos\\PTecnica\\PT_Weather\\WeatherApp\\Application\\Application.csproj": {
+                "projectPath": "D:\\Informacion\\Documentos\\PTecnica\\PT_Weather\\WeatherApp\\Application\\Application.csproj"
               },
-              "C:\\Users\\davo-\\OneDrive\\Escritorio\\PruebaTecnicaClima\\Wheather\\WeatherApp\\Security\\Security.csproj": {
-                "projectPath": "C:\\Users\\davo-\\OneDrive\\Escritorio\\PruebaTecnicaClima\\Wheather\\WeatherApp\\Security\\Security.csproj"
+              "D:\\Informacion\\Documentos\\PTecnica\\PT_Weather\\WeatherApp\\Security\\Security.csproj": {
+                "projectPath": "D:\\Informacion\\Documentos\\PTecnica\\PT_Weather\\WeatherApp\\Security\\Security.csproj"
               }
             }
           }
@@ -100,20 +101,21 @@
         }
       }
     },
-    "C:\\Users\\davo-\\OneDrive\\Escritorio\\PruebaTecnicaClima\\Wheather\\WeatherApp\\Application\\Application.csproj": {
+    "D:\\Informacion\\Documentos\\PTecnica\\PT_Weather\\WeatherApp\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\davo-\\OneDrive\\Escritorio\\PruebaTecnicaClima\\Wheather\\WeatherApp\\Application\\Application.csproj",
+        "projectUniqueName": "D:\\Informacion\\Documentos\\PTecnica\\PT_Weather\\WeatherApp\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "C:\\Users\\davo-\\OneDrive\\Escritorio\\PruebaTecnicaClima\\Wheather\\WeatherApp\\Application\\Application.csproj",
-        "packagesPath": "C:\\Users\\davo-\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\davo-\\OneDrive\\Escritorio\\PruebaTecnicaClima\\Wheather\\WeatherApp\\Application\\obj\\",
+        "projectPath": "D:\\Informacion\\Documentos\\PTecnica\\PT_Weather\\WeatherApp\\Application\\Application.csproj",
+        "packagesPath": "C:\\Users\\jfbal\\.nuget\\packages\\",
+        "outputPath": "D:\\Informacion\\Documentos\\PTecnica\\PT_Weather\\WeatherApp\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\davo-\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jfbal\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -128,11 +130,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\davo-\\OneDrive\\Escritorio\\PruebaTecnicaClima\\Wheather\\WeatherApp\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\davo-\\OneDrive\\Escritorio\\PruebaTecnicaClima\\Wheather\\WeatherApp\\Domain\\Domain.csproj"
+              "D:\\Informacion\\Documentos\\PTecnica\\PT_Weather\\WeatherApp\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\Informacion\\Documentos\\PTecnica\\PT_Weather\\WeatherApp\\Domain\\Domain.csproj"
               },
-              "C:\\Users\\davo-\\OneDrive\\Escritorio\\PruebaTecnicaClima\\Wheather\\WeatherApp\\Persistence\\Persistence.csproj": {
-                "projectPath": "C:\\Users\\davo-\\OneDrive\\Escritorio\\PruebaTecnicaClima\\Wheather\\WeatherApp\\Persistence\\Persistence.csproj"
+              "D:\\Informacion\\Documentos\\PTecnica\\PT_Weather\\WeatherApp\\Persistence\\Persistence.csproj": {
+                "projectPath": "D:\\Informacion\\Documentos\\PTecnica\\PT_Weather\\WeatherApp\\Persistence\\Persistence.csproj"
               }
             }
           }
@@ -179,20 +181,21 @@
         }
       }
     },
-    "C:\\Users\\davo-\\OneDrive\\Escritorio\\PruebaTecnicaClima\\Wheather\\WeatherApp\\Domain\\Domain.csproj": {
+    "D:\\Informacion\\Documentos\\PTecnica\\PT_Weather\\WeatherApp\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\davo-\\OneDrive\\Escritorio\\PruebaTecnicaClima\\Wheather\\WeatherApp\\Domain\\Domain.csproj",
+        "projectUniqueName": "D:\\Informacion\\Documentos\\PTecnica\\PT_Weather\\WeatherApp\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\davo-\\OneDrive\\Escritorio\\PruebaTecnicaClima\\Wheather\\WeatherApp\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\davo-\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\davo-\\OneDrive\\Escritorio\\PruebaTecnicaClima\\Wheather\\WeatherApp\\Domain\\obj\\",
+        "projectPath": "D:\\Informacion\\Documentos\\PTecnica\\PT_Weather\\WeatherApp\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\jfbal\\.nuget\\packages\\",
+        "outputPath": "D:\\Informacion\\Documentos\\PTecnica\\PT_Weather\\WeatherApp\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\davo-\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jfbal\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -237,20 +240,21 @@
         }
       }
     },
-    "C:\\Users\\davo-\\OneDrive\\Escritorio\\PruebaTecnicaClima\\Wheather\\WeatherApp\\Persistence\\Persistence.csproj": {
+    "D:\\Informacion\\Documentos\\PTecnica\\PT_Weather\\WeatherApp\\Persistence\\Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\davo-\\OneDrive\\Escritorio\\PruebaTecnicaClima\\Wheather\\WeatherApp\\Persistence\\Persistence.csproj",
+        "projectUniqueName": "D:\\Informacion\\Documentos\\PTecnica\\PT_Weather\\WeatherApp\\Persistence\\Persistence.csproj",
         "projectName": "Persistence",
-        "projectPath": "C:\\Users\\davo-\\OneDrive\\Escritorio\\PruebaTecnicaClima\\Wheather\\WeatherApp\\Persistence\\Persistence.csproj",
-        "packagesPath": "C:\\Users\\davo-\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\davo-\\OneDrive\\Escritorio\\PruebaTecnicaClima\\Wheather\\WeatherApp\\Persistence\\obj\\",
+        "projectPath": "D:\\Informacion\\Documentos\\PTecnica\\PT_Weather\\WeatherApp\\Persistence\\Persistence.csproj",
+        "packagesPath": "C:\\Users\\jfbal\\.nuget\\packages\\",
+        "outputPath": "D:\\Informacion\\Documentos\\PTecnica\\PT_Weather\\WeatherApp\\Persistence\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\davo-\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jfbal\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -265,8 +269,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\davo-\\OneDrive\\Escritorio\\PruebaTecnicaClima\\Wheather\\WeatherApp\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\davo-\\OneDrive\\Escritorio\\PruebaTecnicaClima\\Wheather\\WeatherApp\\Domain\\Domain.csproj"
+              "D:\\Informacion\\Documentos\\PTecnica\\PT_Weather\\WeatherApp\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\Informacion\\Documentos\\PTecnica\\PT_Weather\\WeatherApp\\Domain\\Domain.csproj"
               }
             }
           }
@@ -327,20 +331,21 @@
         }
       }
     },
-    "C:\\Users\\davo-\\OneDrive\\Escritorio\\PruebaTecnicaClima\\Wheather\\WeatherApp\\Security\\Security.csproj": {
+    "D:\\Informacion\\Documentos\\PTecnica\\PT_Weather\\WeatherApp\\Security\\Security.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\davo-\\OneDrive\\Escritorio\\PruebaTecnicaClima\\Wheather\\WeatherApp\\Security\\Security.csproj",
+        "projectUniqueName": "D:\\Informacion\\Documentos\\PTecnica\\PT_Weather\\WeatherApp\\Security\\Security.csproj",
         "projectName": "Security",
-        "projectPath": "C:\\Users\\davo-\\OneDrive\\Escritorio\\PruebaTecnicaClima\\Wheather\\WeatherApp\\Security\\Security.csproj",
-        "packagesPath": "C:\\Users\\davo-\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\davo-\\OneDrive\\Escritorio\\PruebaTecnicaClima\\Wheather\\WeatherApp\\Security\\obj\\",
+        "projectPath": "D:\\Informacion\\Documentos\\PTecnica\\PT_Weather\\WeatherApp\\Security\\Security.csproj",
+        "packagesPath": "C:\\Users\\jfbal\\.nuget\\packages\\",
+        "outputPath": "D:\\Informacion\\Documentos\\PTecnica\\PT_Weather\\WeatherApp\\Security\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\davo-\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jfbal\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -355,8 +360,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\davo-\\OneDrive\\Escritorio\\PruebaTecnicaClima\\Wheather\\WeatherApp\\Application\\Application.csproj": {
-                "projectPath": "C:\\Users\\davo-\\OneDrive\\Escritorio\\PruebaTecnicaClima\\Wheather\\WeatherApp\\Application\\Application.csproj"
+              "D:\\Informacion\\Documentos\\PTecnica\\PT_Weather\\WeatherApp\\Application\\Application.csproj": {
+                "projectPath": "D:\\Informacion\\Documentos\\PTecnica\\PT_Weather\\WeatherApp\\Application\\Application.csproj"
               }
             }
           }
